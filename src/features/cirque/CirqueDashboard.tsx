@@ -1,4 +1,4 @@
-import { Grid } from "semantic-ui-react";
+
 import ArtistItem from "./ArtistItem";
 
 

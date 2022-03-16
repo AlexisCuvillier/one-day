@@ -1,5 +1,4 @@
-import { Fragment, useState } from "react";
-import { Card, Icon, Image } from "semantic-ui-react";
+
 import ArtistList from "./ArtistList";
 
 export default function ArtistItem() {

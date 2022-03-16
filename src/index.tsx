@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import 'semantic-ui-css/semantic.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import './App/layout/style.css';
+import App from './App/layout/App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App />    
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
